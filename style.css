@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image:url("https://images3.alphacoders.com/134/thumbbig-1349491.webp");
+    margin: 0;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+backdrop-filter: blur(15px) brightness(1.4) contrast(1);
+}
+
+#app {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+box-shadow: 0 14px 18px rgba(19, 10, 10, 9.5);    background: rgb(39, 116, 141);
+    color: rgb(247, 211, 5);
+}
+
+input,
+button {
+    padding: 10px;
+    margin: 5px 0;
+    width: 90%;
+    font-size: 16px;
+    padding-top: 5px;
+    margin-top: 10px;
+
+border:2px solid rgb(30, 6, 244);}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: gray;
+    border-radius: 15px;
+    padding-top: 10px;
+    width: 80px;
+    cursor: pointer;
+    box-shadow: 0 14px 1px rgba(19, 10, 10, 9.5);
+}
+
+button:hover {
+    background-color: red;
+}
+#weather-result{border: 5px solid rgb(222, 9, 9);margin-top: 60px;background:rgb(148, 148, 192);text-align:start;width: 30%;border-radius: 50px;padding-left: 13px;}
+
+#weather-result p {
+ font-size: 18px;
+}
